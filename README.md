@@ -2,6 +2,7 @@ LangChain: Chat with Your Data
 
 🎓 DeepLearning.ai 課程學習專案
 正在學習如何使用 LangChain 建立 RAG (Retrieval Augmented Generation) 系統
+
 課程連結：https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/
 
 📋 專案概述
