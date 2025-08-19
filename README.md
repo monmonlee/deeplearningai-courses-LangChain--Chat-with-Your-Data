@@ -30,3 +30,4 @@ LangChain: Chat with Your Data
 * 文檔 metadata 管理
 * 環境變數和 API 設定
 * LangChain Loader 與 python 解析套件的互動合作
+* LangChain 套件路徑可能有改版，需要檢視官方文件
