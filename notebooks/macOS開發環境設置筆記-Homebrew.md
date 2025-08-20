@@ -27,7 +27,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 第三步：安裝自己需要的套件，例如：
 
 ```bash 
-install ffmpeg
+brew install ffmpeg
 ```
 
 #### 備註
