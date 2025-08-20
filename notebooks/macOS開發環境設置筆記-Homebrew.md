@@ -5,19 +5,30 @@
 #### 安裝 homebrew 方法
 
 第一步：把homebrew程式檔安裝到路徑中，但目前系統還不知道`brew`這個指令在哪裡
-``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+```bash 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 
 第二步：執行以下三行，目的為「設定 shell 環境 (brew shellenv) 把路徑加到 PATH，讓shell認識homebrew」
 
-```bash echo >> /Users/mangtinglee/.zprofile
+```bash 
+echo >> /Users/mangtinglee/.zprofile
+```
 
-```bash echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/mangtinglee/.zprofile 
 
-```bash eval "$(/opt/homebrew/bin/brew shellenv)"
+```bash 
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/mangtinglee/.zprofile 
+```
 
+```bash 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 第三步：安裝自己需要的套件，例如：
 
-```bash install ffmpeg```
+```bash 
+install ffmpeg
+```
 
 #### 備註
 
@@ -25,11 +36,16 @@
 
 1. 搜尋套件
 
-``` bash brew search [text]
+``` bash 
+brew search [text]
+```
 
 2. 更新套件
 
-``` brew install <fomula>
+``` bash
+brew install <fomula>
+```
 
 二、小檔案
+
 * homebrew 是用 ruby 寫的，因為適合寫腳本，而且相較於c語言，ruby開發速度較快。
