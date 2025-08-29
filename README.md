@@ -21,9 +21,8 @@ LangChain: Chat with Your Data
 ✅ 已完成
 * 環境設置: OpenAI API Key 配置
 * 基礎概念: 了解 RAG 系統架構
-* Module 1: Document Loading (進行中 🔄)
 
-🔄 目前進度: Module 1 - Document Loading
+🔄 目前進度: Module 5 - question_answering
 
 正在學習如何載入不同格式的文檔：
 * PDF 檔案處理 (PyPDFLoader)
